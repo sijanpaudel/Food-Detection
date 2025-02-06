@@ -4,7 +4,7 @@ const captureButton = document.getElementById('capture');
 const photo = document.getElementById('photo');
 const result = document.getElementById('result');
 
-// 1️⃣ Access the Camera
+// 1️ Access the Camera
 navigator.mediaDevices.getUserMedia({ video: true })
     .then(stream => {
         video.srcObject = stream;
@@ -20,7 +20,7 @@ video.addEventListener('loadedmetadata', () => {
     video.height = video.videoHeight;
 });
 
-// 2️⃣ Capture and Send Image
+// 2️ Capture and Send Image
 
 captureButton.addEventListener("click", async () => {
     const context = canvas.getContext("2d");
