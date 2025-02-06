@@ -1,0 +1,7 @@
+data/
+__pycache__/
+food.zip
+test.jpg
+test.py
+.venv/
+.ipynb_checkpoints/
