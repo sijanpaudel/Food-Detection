@@ -3,7 +3,7 @@
 This web app uses your device's camera to capture an image, sends it to a Flask backend, and predicts the type of food using a pre-trained deep learning model.
 
 ## Features
-- Capture food images from your webcam
+- Capture food images using your device's camera
 - Predict the food type using a Flask backend
 - Display the prediction result
 
@@ -11,7 +11,7 @@ This web app uses your device's camera to capture an image, sends it to a Flask 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/food-detection-web-app.git
+   git clone https://github.com/sijanpaudel/Food-Detection.git
    cd food-detection-web-app
 
 2. Install backend dependencies:
